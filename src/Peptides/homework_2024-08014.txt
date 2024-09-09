@@ -27,14 +27,14 @@ Then check whether the current k-mer is in the Map of peptides.
 If so, put k-mer’s position into a list of positions for the peptide.
 
 
-Approach 3:
+Approach 3:(done)
 
 Generate map of peptides as long integers
 and re-apply approach 2: for each k-mer convert it
 into a long integer and search for it in a Map of peptides.
 
 
-Approach 4: use Binary Search!
+Approach 4: use Binary Search! (done)
 
 Instead of using Map of peptides just put their
 long integer representation into an array of longs
